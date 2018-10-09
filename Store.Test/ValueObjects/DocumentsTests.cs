@@ -5,19 +5,29 @@ using Store.Domain.StoreContext.ValueObjects;
 namespace Store.Test.ValueObjects
 {
     [TestClass]
-    public class UnitTest1
+    public class DocumentTests
     {
+        private Document ValidDocument;
+        private Document invalidDocument;
+
+        public DocumentTests()
+        {
+            ValidDocument = new Document("39965318000");
+            invalidDocument = new Document("123412341234");
+        }
+
         [TestMethod]
         public void SholdReturnNotificationWhenDocumentIsNotValid()
         {
-            var document = new Document("1234567890");
-            Assert.AreEqual(false, document.IsValid);
+            Assert.AreEqual(false, invalidDocument.IsValid);
+            Assert.AreEqual(1, invalidDocument.Notifications.Count);
         }
 
         [TestMethod]
         public void SholdNotReturnNotificationWhenDocumentIsNotValid()
         {
-            Assert.Fail();
+            Assert.AreEqual(true, ValidDocument.IsValid);
+            Assert.AreEqual(0, ValidDocument.Notifications.Count);
         }
     }
 }
