@@ -1,0 +1,9 @@
+C:\Users\Elcio\Documents\dev\Store\Store.Infra\bin\Debug\netstandard2.0\Store.Infra.deps.json
+C:\Users\Elcio\Documents\dev\Store\Store.Infra\bin\Debug\netstandard2.0\Store.Infra.dll
+C:\Users\Elcio\Documents\dev\Store\Store.Infra\bin\Debug\netstandard2.0\Store.Infra.pdb
+C:\Users\Elcio\Documents\dev\Store\Store.Infra\obj\Debug\netstandard2.0\Store.Infra.csprojAssemblyReference.cache
+C:\Users\Elcio\Documents\dev\Store\Store.Infra\obj\Debug\netstandard2.0\Store.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Elcio\Documents\dev\Store\Store.Infra\obj\Debug\netstandard2.0\Store.Infra.AssemblyInfoInputs.cache
+C:\Users\Elcio\Documents\dev\Store\Store.Infra\obj\Debug\netstandard2.0\Store.Infra.AssemblyInfo.cs
+C:\Users\Elcio\Documents\dev\Store\Store.Infra\obj\Debug\netstandard2.0\Store.Infra.dll
+C:\Users\Elcio\Documents\dev\Store\Store.Infra\obj\Debug\netstandard2.0\Store.Infra.pdb

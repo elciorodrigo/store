@@ -1,0 +1,17 @@
+C:\Users\Elcio\Documents\dev\Store\Store.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Elcio\Documents\dev\Store\Store.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Elcio\Documents\dev\Store\Store.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Elcio\Documents\dev\Store\Store.Test\bin\Debug\netcoreapp2.1\Store.Test.deps.json
+C:\Users\Elcio\Documents\dev\Store\Store.Test\bin\Debug\netcoreapp2.1\Store.Test.runtimeconfig.json
+C:\Users\Elcio\Documents\dev\Store\Store.Test\bin\Debug\netcoreapp2.1\Store.Test.runtimeconfig.dev.json
+C:\Users\Elcio\Documents\dev\Store\Store.Test\bin\Debug\netcoreapp2.1\Store.Test.dll
+C:\Users\Elcio\Documents\dev\Store\Store.Test\bin\Debug\netcoreapp2.1\Store.Test.pdb
+C:\Users\Elcio\Documents\dev\Store\Store.Test\bin\Debug\netcoreapp2.1\Store.Domain.dll
+C:\Users\Elcio\Documents\dev\Store\Store.Test\bin\Debug\netcoreapp2.1\Store.Domain.pdb
+C:\Users\Elcio\Documents\dev\Store\Store.Test\obj\Debug\netcoreapp2.1\Store.Test.csprojAssemblyReference.cache
+C:\Users\Elcio\Documents\dev\Store\Store.Test\obj\Debug\netcoreapp2.1\Store.Test.csproj.CoreCompileInputs.cache
+C:\Users\Elcio\Documents\dev\Store\Store.Test\obj\Debug\netcoreapp2.1\Store.Test.AssemblyInfoInputs.cache
+C:\Users\Elcio\Documents\dev\Store\Store.Test\obj\Debug\netcoreapp2.1\Store.Test.AssemblyInfo.cs
+C:\Users\Elcio\Documents\dev\Store\Store.Test\obj\Debug\netcoreapp2.1\Store.Test.csproj.CopyComplete
+C:\Users\Elcio\Documents\dev\Store\Store.Test\obj\Debug\netcoreapp2.1\Store.Test.dll
+C:\Users\Elcio\Documents\dev\Store\Store.Test\obj\Debug\netcoreapp2.1\Store.Test.pdb

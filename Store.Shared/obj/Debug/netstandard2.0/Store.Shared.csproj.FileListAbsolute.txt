@@ -1,0 +1,8 @@
+C:\Users\Elcio\Documents\dev\Store\Store.Shared\bin\Debug\netstandard2.0\Store.Shared.deps.json
+C:\Users\Elcio\Documents\dev\Store\Store.Shared\bin\Debug\netstandard2.0\Store.Shared.dll
+C:\Users\Elcio\Documents\dev\Store\Store.Shared\bin\Debug\netstandard2.0\Store.Shared.pdb
+C:\Users\Elcio\Documents\dev\Store\Store.Shared\obj\Debug\netstandard2.0\Store.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Elcio\Documents\dev\Store\Store.Shared\obj\Debug\netstandard2.0\Store.Shared.AssemblyInfoInputs.cache
+C:\Users\Elcio\Documents\dev\Store\Store.Shared\obj\Debug\netstandard2.0\Store.Shared.AssemblyInfo.cs
+C:\Users\Elcio\Documents\dev\Store\Store.Shared\obj\Debug\netstandard2.0\Store.Shared.dll
+C:\Users\Elcio\Documents\dev\Store\Store.Shared\obj\Debug\netstandard2.0\Store.Shared.pdb

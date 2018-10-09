@@ -1,0 +1,14 @@
+C:\Users\Elcio\Documents\dev\Store\Store.Api\bin\Debug\netcoreapp2.1\Store.Api.deps.json
+C:\Users\Elcio\Documents\dev\Store\Store.Api\bin\Debug\netcoreapp2.1\Store.Api.runtimeconfig.json
+C:\Users\Elcio\Documents\dev\Store\Store.Api\bin\Debug\netcoreapp2.1\Store.Api.runtimeconfig.dev.json
+C:\Users\Elcio\Documents\dev\Store\Store.Api\bin\Debug\netcoreapp2.1\Store.Api.dll
+C:\Users\Elcio\Documents\dev\Store\Store.Api\bin\Debug\netcoreapp2.1\Store.Api.pdb
+C:\Users\Elcio\Documents\dev\Store\Store.Api\obj\Debug\netcoreapp2.1\Store.Api.csprojAssemblyReference.cache
+C:\Users\Elcio\Documents\dev\Store\Store.Api\obj\Debug\netcoreapp2.1\Store.Api.csproj.CoreCompileInputs.cache
+C:\Users\Elcio\Documents\dev\Store\Store.Api\obj\Debug\netcoreapp2.1\Store.Api.RazorAssemblyInfo.cache
+C:\Users\Elcio\Documents\dev\Store\Store.Api\obj\Debug\netcoreapp2.1\Store.Api.RazorAssemblyInfo.cs
+C:\Users\Elcio\Documents\dev\Store\Store.Api\obj\Debug\netcoreapp2.1\Store.Api.AssemblyInfoInputs.cache
+C:\Users\Elcio\Documents\dev\Store\Store.Api\obj\Debug\netcoreapp2.1\Store.Api.AssemblyInfo.cs
+C:\Users\Elcio\Documents\dev\Store\Store.Api\obj\Debug\netcoreapp2.1\Store.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Elcio\Documents\dev\Store\Store.Api\obj\Debug\netcoreapp2.1\Store.Api.dll
+C:\Users\Elcio\Documents\dev\Store\Store.Api\obj\Debug\netcoreapp2.1\Store.Api.pdb
