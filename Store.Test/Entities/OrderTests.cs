@@ -5,7 +5,7 @@ using Store.Domain.StoreContext.ValueObjects;
 
 namespace Store.Test.entities
 {
-     [TestClass]
+    [TestClass]
     public class OrderTests
     {
         private Product _mouse;
@@ -125,6 +125,11 @@ namespace Store.Test.entities
             {
                 Assert.AreEqual(EDeliveryStatus.Canceled, x.Status);
             }
+        }
+
+        public void CreateCustomer()
+        {
+            
         }
     }
 }

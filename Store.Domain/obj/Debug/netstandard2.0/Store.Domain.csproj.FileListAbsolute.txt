@@ -7,3 +7,6 @@ C:\Users\Elcio\Documents\dev\Store\Store.Domain\obj\Debug\netstandard2.0\Store.D
 C:\Users\Elcio\Documents\dev\Store\Store.Domain\obj\Debug\netstandard2.0\Store.Domain.dll
 C:\Users\Elcio\Documents\dev\Store\Store.Domain\obj\Debug\netstandard2.0\Store.Domain.pdb
 C:\Users\Elcio\Documents\dev\Store\Store.Domain\obj\Debug\netstandard2.0\Store.Domain.csprojAssemblyReference.cache
+C:\Users\Elcio\Documents\dev\store\Store.Domain\bin\Debug\netstandard2.0\Store.Shared.dll
+C:\Users\Elcio\Documents\dev\store\Store.Domain\bin\Debug\netstandard2.0\Store.Shared.pdb
+C:\Users\Elcio\Documents\dev\store\Store.Domain\obj\Debug\netstandard2.0\Store.Domain.csproj.CopyComplete

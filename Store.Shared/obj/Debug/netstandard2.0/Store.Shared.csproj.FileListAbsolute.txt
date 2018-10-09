@@ -6,3 +6,4 @@ C:\Users\Elcio\Documents\dev\Store\Store.Shared\obj\Debug\netstandard2.0\Store.S
 C:\Users\Elcio\Documents\dev\Store\Store.Shared\obj\Debug\netstandard2.0\Store.Shared.AssemblyInfo.cs
 C:\Users\Elcio\Documents\dev\Store\Store.Shared\obj\Debug\netstandard2.0\Store.Shared.dll
 C:\Users\Elcio\Documents\dev\Store\Store.Shared\obj\Debug\netstandard2.0\Store.Shared.pdb
+C:\Users\Elcio\Documents\dev\store\Store.Shared\obj\Debug\netstandard2.0\Store.Shared.csprojAssemblyReference.cache

@@ -37,6 +37,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Store.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Store.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.Shared.dll": {}
+        }
       }
     }
   },
@@ -190,12 +200,18 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Store.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Store.Shared/Store.Shared.csproj",
+      "msbuildProject": "../Store.Shared/Store.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "FluentValidator >= 2.0.2",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "Store.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -205,11 +221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elcio\\Documents\\dev\\Store\\Store.Domain\\Store.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Domain\\Store.Domain.csproj",
       "projectName": "Store.Domain",
-      "projectPath": "C:\\Users\\Elcio\\Documents\\dev\\Store\\Store.Domain\\Store.Domain.csproj",
+      "projectPath": "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Domain\\Store.Domain.csproj",
       "packagesPath": "C:\\Users\\Elcio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elcio\\Documents\\dev\\Store\\Store.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -227,7 +243,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Shared\\Store.Shared.csproj": {
+              "projectPath": "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Shared\\Store.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

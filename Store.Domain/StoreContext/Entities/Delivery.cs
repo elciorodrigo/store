@@ -1,4 +1,5 @@
 using System;
+using Store.Domain.StoreContext.Enums;
 
 namespace Store.Domain.StoreContext.entities
 {
@@ -13,16 +14,18 @@ namespace Store.Domain.StoreContext.entities
 
         public DateTime CreateDate { get; set; }
         public DateTime EstimatedDeliveryDate { get; set; }
-        public string Status { get; set; }
+        public EDeliveryStatus Status { get; set; }
 
-        internal void Ship()
+        public void Ship()
         {
-           
+            // Se a Data estimada de entrega for no passado, n�o entregar
+            Status = EDeliveryStatus.Shipped;
         }
 
-        internal void Cancel()
+        public void Cancel()
         {
-           
+            // Se o status j� estiver entregue, n�o pode cancelar
+            Status = EDeliveryStatus.Canceled;
         }
     }
 }

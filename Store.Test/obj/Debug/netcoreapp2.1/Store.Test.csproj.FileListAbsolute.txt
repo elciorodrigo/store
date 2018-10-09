@@ -15,3 +15,5 @@ C:\Users\Elcio\Documents\dev\Store\Store.Test\obj\Debug\netcoreapp2.1\Store.Test
 C:\Users\Elcio\Documents\dev\Store\Store.Test\obj\Debug\netcoreapp2.1\Store.Test.csproj.CopyComplete
 C:\Users\Elcio\Documents\dev\Store\Store.Test\obj\Debug\netcoreapp2.1\Store.Test.dll
 C:\Users\Elcio\Documents\dev\Store\Store.Test\obj\Debug\netcoreapp2.1\Store.Test.pdb
+C:\Users\Elcio\Documents\dev\store\Store.Test\bin\Debug\netcoreapp2.1\Store.Shared.dll
+C:\Users\Elcio\Documents\dev\store\Store.Test\bin\Debug\netcoreapp2.1\Store.Shared.pdb
