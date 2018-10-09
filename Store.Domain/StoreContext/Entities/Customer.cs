@@ -14,8 +14,8 @@ namespace Store.Domain.StoreContext.entities
             Name name,
             Document document,
             Email email,
-            string phone,
-            string adress)
+            string phone
+            )
         {   
             
             Email = email;

@@ -5780,11 +5780,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elcio\\Documents\\dev\\Store\\Store.Test\\Store.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Test\\Store.Test.csproj",
       "projectName": "Store.Test",
-      "projectPath": "C:\\Users\\Elcio\\Documents\\dev\\Store\\Store.Test\\Store.Test.csproj",
+      "projectPath": "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Test\\Store.Test.csproj",
       "packagesPath": "C:\\Users\\Elcio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elcio\\Documents\\dev\\Store\\Store.Test\\obj\\",
+      "outputPath": "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5803,8 +5803,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Elcio\\Documents\\dev\\Store\\Store.Domain\\Store.Domain.csproj": {
-              "projectPath": "C:\\Users\\Elcio\\Documents\\dev\\Store\\Store.Domain\\Store.Domain.csproj"
+            "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Domain\\Store.Domain.csproj": {
+              "projectPath": "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Domain\\Store.Domain.csproj"
             }
           }
         }

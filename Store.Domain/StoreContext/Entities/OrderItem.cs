@@ -14,7 +14,9 @@ namespace Store.Domain.StoreContext.entities
 
             if (product.QuantityOnHand < quantity)
                 AddNotification("Quantity", "Produto fora de estoque");
-               
+
+            product.DecreaseQuantity(quantity);
+            
         }
         public Product Product { get; set; }
         public decimal Quantity { get; set; }
