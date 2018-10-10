@@ -9,7 +9,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.1.4" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.ResponseCompression" Version="2.1.1" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Store.Domain\Store.Domain.csproj" />
+    <ProjectReference Include="..\Store.Shared\Store.Shared.csproj" />
+    <ProjectReference Include="..\Store.Infra\Store.Infra.csproj" />
   </ItemGroup>
 
 </Project>

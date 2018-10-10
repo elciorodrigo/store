@@ -7,3 +7,8 @@ C:\Users\Elcio\Documents\dev\Store\Store.Infra\obj\Debug\netstandard2.0\Store.In
 C:\Users\Elcio\Documents\dev\Store\Store.Infra\obj\Debug\netstandard2.0\Store.Infra.AssemblyInfo.cs
 C:\Users\Elcio\Documents\dev\Store\Store.Infra\obj\Debug\netstandard2.0\Store.Infra.dll
 C:\Users\Elcio\Documents\dev\Store\Store.Infra\obj\Debug\netstandard2.0\Store.Infra.pdb
+C:\Users\Elcio\Documents\dev\store\Store.Infra\bin\Debug\netstandard2.0\Store.Domain.dll
+C:\Users\Elcio\Documents\dev\store\Store.Infra\bin\Debug\netstandard2.0\Store.Shared.dll
+C:\Users\Elcio\Documents\dev\store\Store.Infra\bin\Debug\netstandard2.0\Store.Shared.pdb
+C:\Users\Elcio\Documents\dev\store\Store.Infra\bin\Debug\netstandard2.0\Store.Domain.pdb
+C:\Users\Elcio\Documents\dev\store\Store.Infra\obj\Debug\netstandard2.0\Store.Infra.csproj.CopyComplete

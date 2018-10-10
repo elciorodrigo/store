@@ -12,3 +12,10 @@ C:\Users\Elcio\Documents\dev\Store\Store.Api\obj\Debug\netcoreapp2.1\Store.Api.A
 C:\Users\Elcio\Documents\dev\Store\Store.Api\obj\Debug\netcoreapp2.1\Store.Api.RazorTargetAssemblyInfo.cache
 C:\Users\Elcio\Documents\dev\Store\Store.Api\obj\Debug\netcoreapp2.1\Store.Api.dll
 C:\Users\Elcio\Documents\dev\Store\Store.Api\obj\Debug\netcoreapp2.1\Store.Api.pdb
+C:\Users\Elcio\Documents\dev\store\Store.Api\bin\Debug\netcoreapp2.1\Store.Domain.dll
+C:\Users\Elcio\Documents\dev\store\Store.Api\bin\Debug\netcoreapp2.1\Store.Infra.dll
+C:\Users\Elcio\Documents\dev\store\Store.Api\bin\Debug\netcoreapp2.1\Store.Shared.dll
+C:\Users\Elcio\Documents\dev\store\Store.Api\bin\Debug\netcoreapp2.1\Store.Domain.pdb
+C:\Users\Elcio\Documents\dev\store\Store.Api\bin\Debug\netcoreapp2.1\Store.Shared.pdb
+C:\Users\Elcio\Documents\dev\store\Store.Api\bin\Debug\netcoreapp2.1\Store.Infra.pdb
+C:\Users\Elcio\Documents\dev\store\Store.Api\obj\Debug\netcoreapp2.1\Store.Api.csproj.CopyComplete

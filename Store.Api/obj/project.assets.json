@@ -2,6 +2,32 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "Dapper/1.50.5": {
+        "type": "package",
+        "dependencies": {
+          "System.Data.SqlClient": "4.4.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.dll": {}
+        }
+      },
+      "FluentValidator/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -15,16 +41,16 @@
           "lib/netstandard2.0/System.Net.Http.Formatting.dll": {}
         }
       },
-      "Microsoft.AspNetCore/2.1.1": {
+      "Microsoft.AspNetCore/2.1.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics": "2.1.1",
           "Microsoft.AspNetCore.HostFiltering": "2.1.1",
           "Microsoft.AspNetCore.Hosting": "2.1.1",
           "Microsoft.AspNetCore.Routing": "2.1.1",
-          "Microsoft.AspNetCore.Server.IISIntegration": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Https": "2.1.1",
+          "Microsoft.AspNetCore.Server.IISIntegration": "2.1.2",
+          "Microsoft.AspNetCore.Server.Kestrel": "2.1.3",
+          "Microsoft.AspNetCore.Server.Kestrel.Https": "2.1.3",
           "Microsoft.Extensions.Configuration.CommandLine": "2.1.1",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.1.1",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.1.1",
@@ -402,7 +428,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Connections.Abstractions/2.1.1": {
+      "Microsoft.AspNetCore.Connections.Abstractions/2.1.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "2.1.1",
@@ -1255,7 +1281,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.HttpSys.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.IISIntegration/2.1.1": {
+      "Microsoft.AspNetCore.Server.IISIntegration/2.1.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Core": "2.1.1",
@@ -1266,11 +1292,11 @@
           "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
           "Microsoft.Extensions.Options": "2.1.1",
           "System.Buffers": "4.5.0",
-          "System.IO.Pipelines": "4.5.0",
+          "System.IO.Pipelines": "4.5.2",
           "System.Memory": "4.5.1",
           "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.1",
-          "System.Security.Principal.Windows": "4.5.0"
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "System.Security.Principal.Windows": "4.5.1"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.dll": {}
@@ -1279,13 +1305,13 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.Kestrel/2.1.1": {
+      "Microsoft.AspNetCore.Server.Kestrel/2.1.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Hosting": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Core": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Https": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets": "2.1.1"
+          "Microsoft.AspNetCore.Server.Kestrel.Core": "2.1.3",
+          "Microsoft.AspNetCore.Server.Kestrel.Https": "2.1.3",
+          "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets": "2.1.3"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.dll": {}
@@ -1294,11 +1320,11 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.Kestrel.Core/2.1.1": {
+      "Microsoft.AspNetCore.Server.Kestrel.Core/2.1.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions": "2.1.1",
+          "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions": "2.1.3",
           "Microsoft.AspNetCore.WebUtilities": "2.1.1",
           "Microsoft.Extensions.Configuration.Binder": "2.1.1",
           "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
@@ -1317,11 +1343,11 @@
           "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Core.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.Kestrel.Https/2.1.1": {
+      "Microsoft.AspNetCore.Server.Kestrel.Https/2.1.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Core": "2.1.1"
+          "Microsoft.AspNetCore.Server.Kestrel.Core": "2.1.3"
         },
         "compile": {
           "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Https.dll": {}
@@ -1330,10 +1356,10 @@
           "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Https.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions/2.1.1": {
+      "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions/2.1.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Connections.Abstractions": "2.1.1"
+          "Microsoft.AspNetCore.Connections.Abstractions": "2.1.3"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll": {}
@@ -1342,11 +1368,11 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets/2.1.1": {
+      "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets/2.1.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.1",
-          "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions": "2.1.1",
+          "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions": "2.1.3",
           "Microsoft.Extensions.Options": "2.1.1"
         },
         "compile": {
@@ -3278,7 +3304,7 @@
           "lib/netstandard1.3/System.IO.FileSystem.Primitives.dll": {}
         }
       },
-      "System.IO.Pipelines/4.5.0": {
+      "System.IO.Pipelines/4.5.2": {
         "type": "package",
         "compile": {
           "ref/netstandard1.3/System.IO.Pipelines.dll": {}
@@ -3537,7 +3563,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
@@ -3575,17 +3601,13 @@
           "ref/netstandard1.0/System.Reflection.Primitives.dll": {}
         }
       },
-      "System.Reflection.TypeExtensions/4.3.0": {
+      "System.Reflection.TypeExtensions/4.4.0": {
         "type": "package",
-        "dependencies": {
-          "System.Reflection": "4.3.0",
-          "System.Runtime": "4.3.0"
-        },
         "compile": {
-          "ref/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
+          "ref/netcoreapp2.0/_._": {}
         },
         "runtime": {
-          "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
+          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.Resources.ResourceManager/4.3.0": {
@@ -3611,7 +3633,7 @@
           "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.1": {
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -4024,7 +4046,7 @@
           "lib/netstandard1.0/System.Security.Principal.dll": {}
         }
       },
-      "System.Security.Principal.Windows/4.5.0": {
+      "System.Security.Principal.Windows/4.5.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0"
@@ -4333,10 +4355,77 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Store.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentValidator": "2.0.2",
+          "Store.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Store.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.Domain.dll": {}
+        }
+      },
+      "Store.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Dapper": "1.50.5",
+          "Store.Domain": "1.0.0",
+          "Store.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Store.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.Infra.dll": {}
+        }
+      },
+      "Store.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Store.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.Shared.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Dapper/1.50.5": {
+      "sha512": "1vPpX7WQmQCIb7rwlGOUoVs/yWZhVKvdhuG7WrJV+V+qsP8btnrrCqVWHENAlJxBAnUw5rhWfmuba9/Egei9MA==",
+      "type": "package",
+      "path": "dapper/1.50.5",
+      "files": [
+        "dapper.1.50.5.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net451/Dapper.dll",
+        "lib/net451/Dapper.xml",
+        "lib/netstandard1.3/Dapper.dll",
+        "lib/netstandard1.3/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "FluentValidator/2.0.2": {
+      "sha512": "+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
+      "type": "package",
+      "path": "fluentvalidator/2.0.2",
+      "files": [
+        "fluentvalidator.2.0.2.nupkg.sha512",
+        "fluentvalidator.nuspec",
+        "lib/netstandard1.3/FluentValidator.dll"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "rMDlyePoxggkmN/qgha1+BR2Uy+dOr38xKCQOPfVNKGY07R2nYJGMTKJFE1XFgwD70RYUNazf2fqutjJF18XgQ==",
       "type": "package",
@@ -4353,15 +4442,15 @@
         "microsoft.aspnet.webapi.client.nuspec"
       ]
     },
-    "Microsoft.AspNetCore/2.1.1": {
-      "sha512": "YN6f5seFJb8EzODtccEnSW73q7yS6kgozun/TDAJQK4vbWG/PK9WKR2dPO1pXkrDlau3f/8yTRzof+j3hsDLOw==",
+    "Microsoft.AspNetCore/2.1.4": {
+      "sha512": "VSo0hjn6UhisVyDN7Usos4U1eugHjVk5EynU7wS08XlVMc6bhKR/q+QsL7xX/Nm06ttM+hC8nYSYxtpVJisy2w==",
       "type": "package",
-      "path": "microsoft.aspnetcore/2.1.1",
+      "path": "microsoft.aspnetcore/2.1.4",
       "files": [
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.xml",
-        "microsoft.aspnetcore.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.2.1.4.nupkg.sha512",
         "microsoft.aspnetcore.nuspec"
       ]
     },
@@ -4558,15 +4647,15 @@
         "microsoft.aspnetcore.authorization.policy.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Connections.Abstractions/2.1.1": {
-      "sha512": "F3+HhBB2Xh9EbJDLJq9PqKIvLiiFHWwoSU/LLjltbV/p0ch7fXCvmQqZV+p+Od/Gji2QsSwsr2EhVEA9FCZh1g==",
+    "Microsoft.AspNetCore.Connections.Abstractions/2.1.3": {
+      "sha512": "9MHZ6ML9ZRVSs0cxS6YUasVmkYxuDQHslAzibC4hFnLw15NFXhxsZmHWhUKMSkXTNcrY2UzBXC5Z3irBrkV2CQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.connections.abstractions/2.1.1",
+      "path": "microsoft.aspnetcore.connections.abstractions/2.1.3",
       "files": [
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.xml",
-        "microsoft.aspnetcore.connections.abstractions.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.connections.abstractions.2.1.3.nupkg.sha512",
         "microsoft.aspnetcore.connections.abstractions.nuspec"
       ]
     },
@@ -5306,81 +5395,81 @@
         "microsoft.aspnetcore.server.httpsys.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.IISIntegration/2.1.1": {
-      "sha512": "GOEg75Bb+hoJ5/e1fouBn02MotR9ITs3pQBqT6y6DGTplQ0+/VQsb2R7utro39joHwB1HX4LgLBzfSjkjyYHvQ==",
+    "Microsoft.AspNetCore.Server.IISIntegration/2.1.2": {
+      "sha512": "od5qyIesBRY2ssMPIsP1Tk7pYGW+n5mPXgV2heI0d4KmElk5PtRUN7g1rUpdh3KLxsHzbCDNE+PY0fiLsYaikQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.iisintegration/2.1.1",
+      "path": "microsoft.aspnetcore.server.iisintegration/2.1.2",
       "files": [
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.xml",
-        "microsoft.aspnetcore.server.iisintegration.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.iisintegration.2.1.2.nupkg.sha512",
         "microsoft.aspnetcore.server.iisintegration.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.Kestrel/2.1.1": {
-      "sha512": "nHJ7DAcZUYIgTpqs5GKlsEo16uGlEk73LO2fX7YQDvF/L1zX1Fe7f5KyynepGorIenzJHvAJEtfTHpqFFSPNsA==",
+    "Microsoft.AspNetCore.Server.Kestrel/2.1.3": {
+      "sha512": "8exfpLm+Kl2lomAu4cOBy60NNKRk54mWRpcKGPeYUcADo88CMg74Iqcx2u8O5nbYyqrIVpHxlp5EcpyZNfUlTg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.kestrel/2.1.1",
+      "path": "microsoft.aspnetcore.server.kestrel/2.1.3",
       "files": [
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.xml",
-        "microsoft.aspnetcore.server.kestrel.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.kestrel.2.1.3.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.Kestrel.Core/2.1.1": {
-      "sha512": "lJHti9K7nUoFdx3czli+ITiTOOT1GBgKZxhe5dT0K/6lIniyDZAHZ+s9n4JGej2fUEFBZvfSxIGBWZUGe1ffmw==",
+    "Microsoft.AspNetCore.Server.Kestrel.Core/2.1.3": {
+      "sha512": "rvNeD2+SneCg/S4BMzxDjUtGglzi07IAKLERwVu5/tsF1CKpvjmUbdawd14z68pLxQN8ED/ksrQ014cs4iY3Gg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.kestrel.core/2.1.1",
+      "path": "microsoft.aspnetcore.server.kestrel.core/2.1.3",
       "files": [
         ".signature.p7s",
         "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Core.dll",
         "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Core.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Core.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Core.xml",
-        "microsoft.aspnetcore.server.kestrel.core.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.kestrel.core.2.1.3.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.core.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.Kestrel.Https/2.1.1": {
-      "sha512": "7DtRvE3ffWAqa2zyOt2pKKmi9xToQCP/WFBmujTZTfB8FX+1sEHc0/2h2WuaCZTmXC+jwLdO95HZx8Bu0XctSQ==",
+    "Microsoft.AspNetCore.Server.Kestrel.Https/2.1.3": {
+      "sha512": "6oauEGoE7YAGcnctDMkcyJQGDtmRel91aZ9KkezP3TJqAOFh9RTCy19627WDxRq0RnsEEo+lPD2EB9ZUxEhcZg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.kestrel.https/2.1.1",
+      "path": "microsoft.aspnetcore.server.kestrel.https/2.1.3",
       "files": [
         ".signature.p7s",
         "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Https.dll",
         "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Https.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Https.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Https.xml",
-        "microsoft.aspnetcore.server.kestrel.https.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.kestrel.https.2.1.3.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.https.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions/2.1.1": {
-      "sha512": "118KSszFP/b81+AS+h1M3Tm6pSL3Py8y65UjEzM9BE3S5qlTRC+w/ExHqy5avZOkvunfAlEFKu8Gyl9IJQFdXw==",
+    "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions/2.1.3": {
+      "sha512": "t+hWYlKXrJhWlkQPKKszy9Txt/n1IcymhB0io+va8fMRMOLUj1f6e9A/pgmR/YGYtfwZ8Zt0NInhjnbfoe4d5Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.kestrel.transport.abstractions/2.1.1",
+      "path": "microsoft.aspnetcore.server.kestrel.transport.abstractions/2.1.3",
       "files": [
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.xml",
-        "microsoft.aspnetcore.server.kestrel.transport.abstractions.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.kestrel.transport.abstractions.2.1.3.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.transport.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets/2.1.1": {
-      "sha512": "Q2obTqdWPxLqSm8RVLNq+RWRNiMNXkckVnHvM6UwHryw7KCDOW8TiBh52hTBNVmuRjZQ2bTeqYO1luSGYKpcPQ==",
+    "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets/2.1.3": {
+      "sha512": "yOYyBMXxPGp80U+jIV3CeCjnTOogXFgUxoNwsYLMldFFKfaFhReWrGk+qbbcGWr1uVZWZHvL4yMIclVXilTY8Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.server.kestrel.transport.sockets/2.1.1",
+      "path": "microsoft.aspnetcore.server.kestrel.transport.sockets/2.1.3",
       "files": [
         ".signature.p7s",
         "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll",
         "lib/netcoreapp2.1/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.xml",
-        "microsoft.aspnetcore.server.kestrel.transport.sockets.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.server.kestrel.transport.sockets.2.1.3.nupkg.sha512",
         "microsoft.aspnetcore.server.kestrel.transport.sockets.nuspec"
       ]
     },
@@ -8539,10 +8628,10 @@
         "system.io.filesystem.primitives.nuspec"
       ]
     },
-    "System.IO.Pipelines/4.5.0": {
-      "sha512": "Kq9eZWVKN9khHhkatLWLLxYCs3j9qSNMZELqn2YG1YsCMv6bPmAtaN0CfA6l7vxFbiV02C996Dy7yHO8DkaJLg==",
+    "System.IO.Pipelines/4.5.2": {
+      "sha512": "Wrlfraisvf2RVdE4rryEsH2v6AoRQSZzfH2jwuOA9DwT0OvC2MmLAXdvPyF3/xeyvhWq9YuQMSPwHok8e5JjSA==",
       "type": "package",
-      "path": "system.io.pipelines/4.5.0",
+      "path": "system.io.pipelines/4.5.2",
       "files": [
         ".signature.p7s",
         "LICENSE.TXT",
@@ -8554,7 +8643,7 @@
         "lib/netstandard2.0/System.IO.Pipelines.dll",
         "lib/netstandard2.0/System.IO.Pipelines.xml",
         "ref/netstandard1.3/System.IO.Pipelines.dll",
-        "system.io.pipelines.4.5.0.nupkg.sha512",
+        "system.io.pipelines.4.5.2.nupkg.sha512",
         "system.io.pipelines.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -9424,19 +9513,24 @@
         "system.reflection.primitives.nuspec"
       ]
     },
-    "System.Reflection.TypeExtensions/4.3.0": {
-      "sha512": "7u6ulLcZbyxB5Gq0nMkQttcdBTx57ibzw+4IOXEfR+sXYQoHvjW5LTLyNr8O22UIMrqYbchJQJnos4eooYzYJA==",
+    "System.Reflection.TypeExtensions/4.4.0": {
+      "sha512": "JRxOAH6by+wn1gNnZc9jf2HbO/szhMJuLY2w44nEW77354WntXlFzWSVkx6280Uvcl3URZ/At+444vjX0/X1Aw==",
       "type": "package",
-      "path": "system.reflection.typeextensions/4.3.0",
+      "path": "system.reflection.typeextensions/4.4.0",
       "files": [
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
         "lib/net46/System.Reflection.TypeExtensions.dll",
-        "lib/net462/System.Reflection.TypeExtensions.dll",
+        "lib/net461/System.Reflection.TypeExtensions.dll",
         "lib/netcore50/System.Reflection.TypeExtensions.dll",
+        "lib/netcoreapp1.0/System.Reflection.TypeExtensions.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/System.Reflection.TypeExtensions.dll",
         "lib/netstandard1.5/System.Reflection.TypeExtensions.dll",
+        "lib/netstandard2.0/System.Reflection.TypeExtensions.dll",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
@@ -9444,7 +9538,9 @@
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/net46/System.Reflection.TypeExtensions.dll",
-        "ref/net462/System.Reflection.TypeExtensions.dll",
+        "ref/net461/System.Reflection.TypeExtensions.dll",
+        "ref/net461/System.Reflection.TypeExtensions.xml",
+        "ref/netcoreapp2.0/_._",
         "ref/netstandard1.3/System.Reflection.TypeExtensions.dll",
         "ref/netstandard1.3/System.Reflection.TypeExtensions.xml",
         "ref/netstandard1.3/de/System.Reflection.TypeExtensions.xml",
@@ -9467,13 +9563,17 @@
         "ref/netstandard1.5/ru/System.Reflection.TypeExtensions.xml",
         "ref/netstandard1.5/zh-hans/System.Reflection.TypeExtensions.xml",
         "ref/netstandard1.5/zh-hant/System.Reflection.TypeExtensions.xml",
+        "ref/netstandard2.0/System.Reflection.TypeExtensions.dll",
+        "ref/netstandard2.0/System.Reflection.TypeExtensions.xml",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
         "runtimes/aot/lib/netcore50/System.Reflection.TypeExtensions.dll",
-        "system.reflection.typeextensions.4.3.0.nupkg.sha512",
-        "system.reflection.typeextensions.nuspec"
+        "system.reflection.typeextensions.4.4.0.nupkg.sha512",
+        "system.reflection.typeextensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Resources.ResourceManager/4.3.0": {
@@ -9621,10 +9721,10 @@
         "system.runtime.nuspec"
       ]
     },
-    "System.Runtime.CompilerServices.Unsafe/4.5.1": {
-      "sha512": "qUJMNWhbm9oZ3XaMFiEMiYmRPszbnXIkRIi7+4b2Md2xZ6JUOepf0/kY3S85qistRohl9OdMe4PsO+RdG2kTIQ==",
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "sha512": "k3rsGIl3aG0AJVIxs8z2mTvF4BSFJtkHSYbnhgcdZX9L80Hr5U8/VYHlci26mJz3gZSFX1JjRyEQZhbDnBb4tw==",
       "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/4.5.1",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
       "files": [
         ".signature.p7s",
         "LICENSE.TXT",
@@ -9639,7 +9739,7 @@
         "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
         "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -10552,10 +10652,10 @@
         "system.security.principal.nuspec"
       ]
     },
-    "System.Security.Principal.Windows/4.5.0": {
-      "sha512": "WA9ETb/pY3BjnxKjBUHEgO59B7d/nnmjHFsqjJ2eDT780nD769CT1/bw2ia0Z6W7NqlcqokE6sKGKa6uw88XGA==",
+    "System.Security.Principal.Windows/4.5.1": {
+      "sha512": "81+qSOLQXC7R4O9UjZYIiyitQ5/3yU98HoaZ4nkuORxIE8O+HdiVODovORX4W3zJIJZ8CbAp4WVWn5ZGj5pTBw==",
       "type": "package",
-      "path": "system.security.principal.windows/4.5.0",
+      "path": "system.security.principal.windows/4.5.1",
       "files": [
         ".signature.p7s",
         "LICENSE.TXT",
@@ -10588,7 +10688,7 @@
         "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
         "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
         "runtimes/win/lib/uap10.0.16299/_._",
-        "system.security.principal.windows.4.5.0.nupkg.sha512",
+        "system.security.principal.windows.4.5.1.nupkg.sha512",
         "system.security.principal.windows.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -11491,12 +11591,32 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Store.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Store.Domain/Store.Domain.csproj",
+      "msbuildProject": "../Store.Domain/Store.Domain.csproj"
+    },
+    "Store.Infra/1.0.0": {
+      "type": "project",
+      "path": "../Store.Infra/Store.Infra.csproj",
+      "msbuildProject": "../Store.Infra/Store.Infra.csproj"
+    },
+    "Store.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Store.Shared/Store.Shared.csproj",
+      "msbuildProject": "../Store.Shared/Store.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Microsoft.AspNetCore >= 2.1.4",
       "Microsoft.AspNetCore.App >= 2.1.1",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.AspNetCore.ResponseCompression >= 2.1.1",
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Store.Domain >= 1.0.0",
+      "Store.Infra >= 1.0.0",
+      "Store.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11506,11 +11626,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elcio\\Documents\\dev\\Store\\Store.Api\\Store.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Api\\Store.Api.csproj",
       "projectName": "Store.Api",
-      "projectPath": "C:\\Users\\Elcio\\Documents\\dev\\Store\\Store.Api\\Store.Api.csproj",
+      "projectPath": "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Api\\Store.Api.csproj",
       "packagesPath": "C:\\Users\\Elcio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elcio\\Documents\\dev\\Store\\Store.Api\\obj\\",
+      "outputPath": "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11528,7 +11648,17 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Domain\\Store.Domain.csproj": {
+              "projectPath": "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Domain\\Store.Domain.csproj"
+            },
+            "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Infra\\Store.Infra.csproj": {
+              "projectPath": "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Infra\\Store.Infra.csproj"
+            },
+            "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Shared\\Store.Shared.csproj": {
+              "projectPath": "C:\\Users\\Elcio\\Documents\\dev\\store\\Store.Shared\\Store.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -11540,11 +11670,19 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "Microsoft.AspNetCore": {
+            "target": "Package",
+            "version": "[2.1.4, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.ResponseCompression": {
+            "target": "Package",
+            "version": "[2.1.1, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",

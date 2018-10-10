@@ -52,7 +52,10 @@ namespace Store.Domain.StoreContext
             _repository.Save(customer);
             _emailService.Send(email.Address, "teste@teste.com.br", "olá", "bem vindo");
 
-            return new CreateCustomerCommandResult(customer.Id, name.ToString(), email.Address, command.Phone);
+            return new CommandResult(true, "Bem vindo", new {
+                Id = customer.Id,
+                Name = name.ToString(),
+                Email = email.Address });
         }
 
         public ICommandResult handle(AddAddressCommand command)
