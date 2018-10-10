@@ -1,9 +1,10 @@
 using System;
 using Store.Domain.StoreContext.Enums;
+using Store.Shared.Entities;
 
 namespace Store.Domain.StoreContext.entities
 {
-    public class Delivery
+    public class Delivery : Entity
     {
         private DateTime dateTime;
 

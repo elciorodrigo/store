@@ -1,8 +1,9 @@
 using System;
+using Store.Shared.Entities;
 
 namespace Store.Domain.StoreContext.entities
 {
-    public class Product
+    public class Product : Entity
     {
 
         public Product(

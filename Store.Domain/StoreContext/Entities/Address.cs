@@ -1,8 +1,9 @@
 ﻿using Store.Domain.StoreContext.Enums;
+using Store.Shared.Entities;
 
 namespace Store.Domain.StoreContext.Entities
 {
-    public class Address
+    public class Address : Entity
     {
 
         public Address(
